@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(102, 59, 2);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+        padding: 10px 20px; /* Atur jarak vertikal (10px) dan horizontal (20px) pada link */
+    
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+article {
+    flex: 2;
+    padding: 20px;
+    background-color: #f0f0f0;
+   
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: rgb(102, 59, 2);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
